@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+     -dev
+---
+spring:
+ profiles: dev
+ application:
+   name: PRIVERD-02
+---
+spring:
+ profiles: test
+ application:
+   name: PROVER
