@@ -12,3 +12,8 @@ spring:
  profiles: test
  application:
    name: PROVER
+---
+spring:
+ profiles: yes
+ application:
+   name: PROVER
